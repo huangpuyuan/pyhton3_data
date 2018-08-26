@@ -4,14 +4,14 @@ Spyder Editor
 
 Author kaitai--HPY
 
-This is a temporary script file.
+Plays a game of guess the number with the user
 """
 
 import random
 
 def main():
     '''Input the bounds of the range of numberss and lets the user guess the compouter's 
-    number until the guess i s correct. '''
+    number until the guess is correct. '''
     smaller = int(input("Enter the smaller number: "))
     larger =  int(input("Enter the larger number: "))
     myNumber = random.randint(smaller,larger)
